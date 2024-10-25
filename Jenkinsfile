@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     stages {
-        stage('Clone Repository') {
+        stage {
             steps {
                 cleanWs()
                 echo 'Copying...'
