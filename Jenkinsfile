@@ -5,8 +5,8 @@ pipeline {
         stage('Clone Repository') {
             steps {
                 cleanWs()
-                echo 'Cloning repository...'
-                bat 'git clone https://github.com/priya1626/mdp_isa2_2327.git'
+                echo 'Copying...'
+                bat 'copy C:\\\\Users\\\\OneDrive\\\\Desktop\\\\2327_MDP_ISA2 "C:\ProgramData\Jenkins\.jenkins\workspace\Pipeline_ISA2_2327"'
             }
         }
 
