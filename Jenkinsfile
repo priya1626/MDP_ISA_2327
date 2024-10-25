@@ -34,5 +34,4 @@ pipeline {
                 bat 'docker run -d --name priya_2327 mdp_isa2_2327'
             }
         }
-    }
 }
