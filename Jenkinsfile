@@ -4,6 +4,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
+                cleanWs()
                 echo 'Cloning repository...'
                 bat 'git clone https://github.com/priya1626/mdp_isa_2327.git'
             }
